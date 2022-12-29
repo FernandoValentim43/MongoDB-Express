@@ -1,13 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "es5",
     "module": "commonjs",
     "outDir": "./dist",
-    "rootDir": "./src",
-    "lib": ["ES6"],
-    "strict": true,
+    "rootDir": "./",
+    "baseUrl": "./",
     "esModuleInterop": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  }
 }
