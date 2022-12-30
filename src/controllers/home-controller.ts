@@ -1,5 +1,3 @@
-const homeController = (req, res) => {
+exports.homeController = (req, res) => {
     res.send("oi")
-}
-
-export default homeController;
+};
