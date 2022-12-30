@@ -1,13 +1,10 @@
 import express from 'express';
 import { Request, Response } from 'express';
+const door = 3001;
 
 const app = express();
 
-app.get('/', (req: Request, res: Response) => {
-  res.send('Application works!');
-});
 
-
-app.listen(3000, () => {
-  console.log('Application started on port 3000!');
+app.listen(3001, () => {
+  console.log(`Application started on port ${door}!`);
 });
